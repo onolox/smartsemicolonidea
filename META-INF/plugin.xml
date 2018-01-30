@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.fabio</id>
+    <name>SmartSemicolon</name>
+    <version>1.0</version>
+    <vendor email="onolox2@gmail.com" url="http://github.com/smartsemicolonidea">Fabio</vendor>
+
+    <description><![CDATA[
+      An extension that makes semicolon smart!<br/><br/>
+No more boring manually go to the end of the line and type ;
+    ]]></description>
+
+    <change-notes><![CDATA[
+         ]]>
+    </change-notes>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="121"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <typedHandler implementation="SSemicolon"/>
+        <backspaceHandlerDelegate implementation="SBackspace"/>
+    </extensions>
+
+</idea-plugin>
