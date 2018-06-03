@@ -15,7 +15,7 @@ public class SSemicolon extends TypedHandlerDelegate {
         Result result = Result.CONTINUE;
         String extension = fileType.getDefaultExtension();
 
-        if (extension.equals("java") || extension.equals("js")) {
+        if (extension.equals("java") || extension.equals("js") || extension.equals("dart")) {
             if (c == ';') {
                 final Document document = editor.getDocument();
                 final CaretModel caretModel = editor.getCaretModel();
