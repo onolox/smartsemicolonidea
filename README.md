@@ -7,4 +7,4 @@ You just have to type ; anywhere in the line and it will be put in the end of th
 
 This works similar to the function present in the Eclipse IDE.
 
-Check in: https://plugins.jetbrains.com/plugin/10408-smartsemicolon
+Check in: https://plugins.jetbrains.com/plugin/10421-smartsemicolon
